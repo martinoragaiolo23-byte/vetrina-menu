@@ -1,0 +1,207 @@
+{
+  "theme": "hybrid_light_and_warm",
+  "archetype": "Organic & Earthy meets Contemporary Italian Hospitality (Moderno ma non troppo)",
+  "typography": {
+    "font_heading": "'Lora Variable', serif",
+    "font_sans": "'Plus Jakarta Sans Variable', sans-serif",
+    "font_mono": "'JetBrains Mono Variable', monospace",
+    "scale_px": {
+      "display": 56,
+      "h1": 42,
+      "h2": 32,
+      "h3": 24,
+      "h4": 20,
+      "body": 16,
+      "caption": 14
+    },
+    "pairing_rationale": "Lora gives the artisanal, warm Italian culinary/hospitality dignity without looking antiquated, while Plus Jakarta Sans delivers crisp, frictionless SaaS usability for mobile menu reading and dashboard forms."
+  },
+  "colors": {
+    "surfaces": [
+      {
+        "name": "page",
+        "kind": "solid",
+        "bg": "#FAF7F2",
+        "on_bg": "#1C1917",
+        "on_bg_muted": "#57534E",
+        "roles": {
+          "link": "#B43403",
+          "error": "#B91C1C",
+          "success": "#15803D",
+          "warning": "#B45309"
+        }
+      },
+      {
+        "name": "panel",
+        "kind": "solid",
+        "bg": "#FFFFFF",
+        "on_bg": "#1C1917",
+        "on_bg_muted": "#78716C",
+        "roles": {
+          "border": "#E7E5E4",
+          "highlight": "#FFF7ED"
+        }
+      },
+      {
+        "name": "sidebar_dark",
+        "kind": "solid",
+        "bg": "#1C1917",
+        "on_bg": "#FAF7F2",
+        "on_bg_muted": "#A8A29E",
+        "roles": {
+          "link": "#FDBA74",
+          "active": "#EA580C"
+        }
+      },
+      {
+        "name": "hero",
+        "kind": "image",
+        "contrast_against": "#1C1917",
+        "guarantee": "scrim: linear-gradient(180deg, rgba(28,25,23,0.85) 0%, rgba(28,25,23,0.65) 60%, rgba(28,25,23,0.92) 100%)",
+        "on_bg": "#FAF7F2",
+        "on_bg_muted": "#E7E5E4",
+        "roles": {
+          "badge_bg": "#EA580C",
+          "badge_text": "#FFFFFF"
+        }
+      },
+      {
+        "name": "public_mobile_header",
+        "kind": "glass",
+        "contrast_against": "#1C1917",
+        "guarantee": "backdrop-blur-xl bg-stone-900/85 text-white border-b border-stone-800",
+        "on_bg": "#FFFFFF",
+        "on_bg_muted": "#D6D3D1"
+      },
+      {
+        "name": "pill_badge",
+        "kind": "solid",
+        "bg": "#FFEDD5",
+        "on_bg": "#9A3412",
+        "on_bg_muted": "#C2410C"
+      },
+      {
+        "name": "action_bar_sticky",
+        "kind": "glass",
+        "contrast_against": "#FAF7F2",
+        "guarantee": "backdrop-blur-xl bg-white/95 border-t border-stone-200/90 shadow-[0_-8px_30px_rgba(0,0,0,0.08)]",
+        "on_bg": "#1C1917",
+        "on_bg_muted": "#78716C"
+      }
+    ],
+    "accent": "#EA580C",
+    "on_accent": "#FFFFFF",
+    "brand_secondary": "#B43403",
+    "brand_terracotta": "#C2410C",
+    "brand_olive": "#3F6212",
+    "brand_amber": "#D97706"
+  },
+  "entry_surfaces": {
+    "/": "split hero with live interactive Italian menu preview card right and value prop CTA left on warm linen background",
+    "/login": "split branded auth with Italian hospitality testimonial and imagery left, crisp secure login form right",
+    "/register": "split branded auth with 7-day free trial guarantee highlight left, streamlined 2-minute setup form right"
+  },
+  "image_urls": {
+    "landing_hero_dishes": [
+      {
+        "category": "hero_sample_dish",
+        "url": "https://images.unsplash.com/photo-1715607873797-a173a95fd47c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzZ8MHwxfHNlYXJjaHwyfHxpdGFsaWFuJTIwZm9vZCUyMHJlc3RhdXJhbnQlMjBwYXN0YSUyMHBpenphfGVufDB8fHx8MTc5NDkxMzQ1Nnww&ixlib=rb-4.1.0&q=85",
+        "description": "Pizza artigianale Margherita cotta a legna con pomodoro San Marzano e fior di latte"
+      },
+      {
+        "category": "hero_sample_dish_pasta",
+        "url": "https://images.unsplash.com/photo-1722587965667-80edfe0fe388?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzZ8MHwxfHNlYXJjaHwzfHxpdGFsaWFuJTIwZm9vZCUyMHJlc3RhdXJhbnQlMjBwYXN0YSUyMHBpenphfGVufDB8fHx8MTc5NDkxMzQ1Nnww&ixlib=rb-4.1.0&q=85",
+        "description": "Pasta fresca al pesto ligure con calice di vino bianco"
+      },
+      {
+        "category": "restaurant_ambiance",
+        "url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1Mjh8MHwxfHNlYXJjaHwzfHxyZXN0YXVyYW50JTIwY2FmZSUyMGludGVyaW9yJTIwYW1iaWFuY2V8ZW58MHx8fHwxNzk0OTEzNDU2fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Interno accogliente con tavoli in legno e lampade a sospensione calde"
+      },
+      {
+        "category": "barber_service",
+        "url": "https://images.unsplash.com/photo-1605497788044-5a32c7078486?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHwxfHxiYXJiZXJzaG9wJTIwc2Fsb24lMjBzdHlsaW5nJTIwaGFpcnxlbnwwfHx8fDE3OTQ5MTM0NTZ8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Salone di parrucchiere e barberia artigianale con taglio e styling"
+      }
+    ],
+    "category_samples": {
+      "ristorante": "https://images.unsplash.com/photo-1722587965667-80edfe0fe388?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzZ8MHwxfHNlYXJjaHwzfHxpdGFsaWFuJTIwZm9vZCUyMHJlc3RhdXJhbnQlMjBwYXN0YSUyMHBpenphfGVufDB8fHx8MTc5NDkxMzQ1Nnww&ixlib=rb-4.1.0&q=85",
+      "pizzeria": "https://images.unsplash.com/photo-1715607873797-a173a95fd47c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzZ8MHwxfHNlYXJjaHwyfHxpdGFsaWFuJTIwZm9vZCUyMHJlc3RhdXJhbnQlMjBwYXN0YSUyMHBpenphfGVufDB8fHx8MTc5NDkxMzQ1Nnww&ixlib=rb-4.1.0&q=85",
+      "bar_bistrot": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1Mjh8MHwxfHNlYXJjaHwzfHxyZXN0YXVyYW50JTIwY2FmZSUyMGludGVyaW9yJTIwYW1iaWFuY2V8ZW58MHx8fHwxNzk0OTEzNDU2fDA&ixlib=rb-4.1.0&q=85",
+      "parrucchiere": "https://images.unsplash.com/photo-1605497788044-5a32c7078486?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHwxfHxiYXJiZXJzaG9wJTIwc2Fsb24lMjBzdHlsaW5nJTIwaGFpcnxlbnwwfHx8fDE3OTQ5MTM0NTZ8MA&ixlib=rb-4.1.0&q=85"
+    }
+  },
+  "layouts": {
+    "landing": {
+      "header": "Sticky crystal glass nav with MenuSito logo (warm terracotta fork-spark icon), quick links (Funzionalità, Come Funziona, Prezzi, Esempi), 'Accedi' button and 'Crea il tuo Menu Gratis' CTA",
+      "hero_layout": "Asymmetric 12-column grid: 7 cols left with bold editorial typography ('Il tuo Menù Digitale e Sito Veloce, pronto in 2 minuti'), 7-giorni prova badge, CTA buttons, and 5 cols right with dynamic smartphone mockup showing real interactive restaurant menu with live allergen tags & quick call buttons",
+      "features_grid": "Tetris Bento grid highlighting: 1. Generatore QR Code Alta Risoluzione con download SVG/PNG; 2. Bottoni Azione Rapida (Chiama, WhatsApp, Maps); 3. Gestore Listino & Allergeni; 4. Prova 7 giorni senza carta di credito",
+      "live_demo_selector": "Interactive preview where users can switch between 'Trattoria Bella Napoli' (Pizzeria/Rist), 'Bistrot Milano Centrale' (Cocktail & Caffè), and 'Atelier Barber & Hair' (Servizi salone)",
+      "pricing_section": "Transparent card detailing the 7-day free trial leading into €29/mese Pro plan, highlighting unlimited scans, unlimited dishes, custom cover & logo, and direct WhatsApp reservations"
+    },
+    "owner_dashboard": {
+      "structure": "Sidebar + Header + Multi-tab workspace. Sidebar contains 'Panoramica', 'Dati Locale', 'Listino & Menu', 'QR Code & Download', 'Abbonamento & Piano Pro', and quick button 'Vedi Pagina Pubblica'",
+      "business_info_tab": "Clean structured form: Nome locale, Categoria (Ristorante, Pizzeria, Bar/Bistrot, Parrucchiere/Salone), Città, Indirizzo, Telefono, Numero WhatsApp per prenotazioni, Orari di apertura settimanali (Lunedì-Domenica con orario spezzato o continuato), Descrizione accattivante, Logo upload e Cover Image upload",
+      "menu_editor_tab": "Drag-and-drop or categorized accordion tree: Manage categories (e.g., Antipasti, Primi, Pizze Speciali, Bevande / Taglio, Piega, Colore). Inside each category: Item title, description, price (formatted in EUR €), image upload/selector, allergen checkboxes (Glutine, Lattosio, Frutta a guscio, ecc.), and 'Disponibile / Esaurito' toggle",
+      "qr_generator_tab": "Interactive high-res QR Code studio with customizable frame styles ('Inquadra per il Menu', 'Tavolo N°', minimal), color picker, and 1-click Download buttons (PNG Alta Risoluzione 300dpi, SVG Vettoriale per stampa tipografica)",
+      "subscription_tab": "Clear visual countdown banner: 'Ti rimangono X giorni di prova gratuita' with instant 'Attiva Piano Pro (29€/mese)' simulated checkout modal with card input or 1-click test checkout, generating active subscription badges and invoice preview"
+    },
+    "public_mobile_page": {
+      "route": "/locale/:slug",
+      "concept": "App-like mobile-first experience. Header with cover photo, restaurant logo avatar, title, category, city, and badge 'Aperto ora / Chiuso'.",
+      "quick_actions_bar": "Sticky bottom or prominent top floating action buttons: 1. 'Chiama Ora' (tel: link), 2. 'WhatsApp' (direct pre-filled message 'Ciao, vorrei prenotare...'), 3. 'Google Maps' (navigation link)",
+      "category_nav": "Sticky horizontal scrolling category chips with smooth scroll to section (#antipasti, #pizze, ecc.)",
+      "menu_items_list": "Clean food cards with high-res dish photography, bold price tag (€XX,XX), ingredient descriptions, and allergen icon pills",
+      "blocked_trial_screen": "Graceful branded lock screen when trial is expired: 'Il periodo di prova di questo locale è terminato. Se sei il proprietario, accedi alla dashboard per attivare il Piano Pro e riattivare la visualizzazione per i tuoi clienti.'"
+    }
+  },
+  "motion": {
+    "page_transitions": "Subtle fade-in and translateY(8px) with motion/react",
+    "interactive_chips": "spring transition 0.2s on active state",
+    "qr_preview": "scale hover 1.02 with soft shadow expansion",
+    "mobile_modal": "slide-up sheet for dish details or allergen information"
+  },
+  "accessibility": {
+    "contrast_standard": "APCA & WCAG AA certified. All text over background maintains at least 4.5:1 ratio.",
+    "touch_targets": "Minimum 44x44px for all mobile action buttons (Chiama, WhatsApp, Maps, Category tabs)",
+    "screen_readers": "All action icons paired with sr-only labels or visible Italian text",
+    "focus_states": "High-contrast ring-2 ring-stone-800 ring-offset-2 on all inputs and buttons"
+  },
+  "instructions_to_main_agent": [
+    "1. Keep all user-facing copy strictly in natural, professional Italian (e.g. 'Menù Digitale', 'Scarica QR Code', 'Prenota su WhatsApp', 'Listino Piatti', 'Orari di Apertura', 'Prova gratuita 7 giorni').",
+    "2. Ensure the public page /locale/:slug is ultra-responsive, snappy and feels like a native mobile app when accessed on smartphones.",
+    "3. Implement the QR Code generator using a robust canvas/SVG library (like qrcode.react) with quick download for PNG and table stand template print view.",
+    "4. Support local storage or MongoDB persistence for user locales, menu items, categories, and subscription state with full CRUD.",
+    "5. Provide pre-seeded realistic Italian demo venues: e.g. 'Trattoria Da Mario' (Roma), 'Pizzeria Bella Napoli' (Napoli), 'Bar Principe' (Firenze), 'Barberia San Babila' (Milano) so the app is instantly rich with authentic Italian food and service data.",
+    "6. Include the simulated 7-day trial countdown and a toggleable 'Simula Scadenza Prova' button in dashboard to test both active and expired public page states."
+  ],
+  "testing_data_testids": {
+    "login_email_input": "login-email-input",
+    "login_password_input": "login-password-input",
+    "login_submit_button": "login-submit-button",
+    "register_name_input": "register-name-input",
+    "register_email_input": "register-email-input",
+    "register_password_input": "register-password-input",
+    "register_submit_button": "register-submit-button",
+    "dashboard_nav_info": "dashboard-nav-info",
+    "dashboard_nav_menu": "dashboard-nav-menu",
+    "dashboard_nav_qr": "dashboard-nav-qr",
+    "dashboard_nav_subscription": "dashboard-nav-subscription",
+    "venue_name_input": "venue-name-input",
+    "venue_city_input": "venue-city-input",
+    "venue_whatsapp_input": "venue-whatsapp-input",
+    "venue_phone_input": "venue-phone-input",
+    "venue_save_button": "venue-save-button",
+    "menu_add_category_button": "menu-add-category-button",
+    "menu_add_item_button": "menu-add-item-button",
+    "menu_item_title_input": "menu-item-title-input",
+    "menu_item_price_input": "menu-item-price-input",
+    "menu_item_save_button": "menu-item-save-button",
+    "qr_download_png_button": "qr-download-png-button",
+    "public_page_call_button": "public-page-call-button",
+    "public_page_whatsapp_button": "public-page-whatsapp-button",
+    "public_page_maps_button": "public-page-maps-button",
+    "subscription_upgrade_button": "subscription-upgrade-button",
+    "simulated_payment_submit": "simulated-payment-submit"
+  }
+}
